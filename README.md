@@ -14,8 +14,7 @@ Morse Keyboard is operated with two buttons, the dot button and the dash button.
 k is considered a valid note as Morse code does not differeniate between lower-case and upper-case letter. So, to be able to play the c note at to different pitches a new character, k, was needed.
 
 ### Circuit Schema
-<img width="30px" src="./pics/circuit_schema.jpg" alt="image_name png" />
-![circuit_schema](https://raw.githubusercontent/EMacson/Morse-Code-Keyboard/pics/circuit_schema.jpg)
+<img width="100px" src="./pics/circuit_schema.jpg" alt="Circuit Schema" />
 
 ### Photos
 
