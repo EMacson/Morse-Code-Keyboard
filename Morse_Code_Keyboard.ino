@@ -1,6 +1,4 @@
 
-//#define BUTTON_PIN 2
-//#define BUTTON_PIN2 3
 // pin definitions
 int BUTTON_PIN = 2;
 int BUTTON_PIN2 = 3;
@@ -14,8 +12,6 @@ char notes[] = "ccggaagffeeddc "; // a space represents a rest
 int beats[] = { 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 4 };
 int tempo = 300;
 
-//int buttonState = 0;
-
 //Used for single LED manipulation
 int ledState = 0;
 const int ON = HIGH;
@@ -24,8 +20,6 @@ const int OFF = LOW;
 int delayTime = 1000; //the number of milliseconds to delay between LED updates
 
 char morseIn[] = "\0\0\0\0";
-//int morseIndex = 0;
-//int morseOut;
 
 // morse code
 char c[] = "-*-*";
@@ -72,13 +66,8 @@ void loop() {
   }
 
   if(digitalRead(BUTTON_PIN) == HIGH && digitalRead(BUTTON_PIN2) == HIGH) {
-    //changeLED(1, 1);
 
     isLetter = checkCode(morseIn);
-
-    if(isLetter > -1) {
-      //changeLED(5, 1);
-    }
 
     i = 0;
     morseIn[0] = '\0';
