@@ -17,6 +17,12 @@ k is considered a valid note as Morse code does not differeniate between lower-c
 <img src="./pics/circuit_schema.jpg" alt="Circuit Schema" />
 
 ### Photos
+<img src="./pics/IMG_3444.jpg"  />
+<img src="./pics/IMG_3445.jpg"  />
+<img src="./pics/IMG_3446.jpg"  />
+<img src="./pics/IMG_3447.jpg"  />
+<img src="./pics/IMG_3448.jpg"  />
+<img src="./pics/IMG_3450.jpg"  />
 
 ### Video Explanation and Demo
 
