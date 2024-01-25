@@ -26,6 +26,7 @@ k is considered a valid note as Morse code does not differeniate between lower-c
 <img src="./pics/IMG_3450.jpg"  />
 
 ### Video Explanation and Demo
+Under pics is a mp4 file that contains a video explanation and demonstration for this project.
 
 ### Functionality
 The components for this project are
