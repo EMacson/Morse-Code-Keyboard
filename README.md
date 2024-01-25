@@ -1,4 +1,4 @@
-# Morse-Code-Keyboard
+# Morse Keyboard
 
 ## Description
 ### Concept
@@ -12,6 +12,12 @@ A music scale typically includes 8 notes, where each note is denoted as a, b, c,
 Telegraphs and instruments are alike as to use them a user must memorize Morse code or music scales to operate each device efficiently. To help with this memorization I have developed Morse Keyboard. Morse Keyboard is an interactive device to help teach introductory knowledge for Morse code and music scales. Specifically, Morse Keyboard helps users learn the C Major scale (this is one of the most common scales in music, it consists of the notes cdefgabc, in that order), and each notes Morse code representation. 
 Morse Keyboard is operated with two buttons, the dot button and the dash button. A arduino will try to convert a user's input to a character in Morse code. If the input matches a note character, a to g and k, then an LED will light to indicate the entered charater and the respective note will play. 
 k is considered a valid note as Morse code does not differeniate between lower-case and upper-case letter. So, to be able to play the c note at to different pitches a new character, k, was needed.
+
+### Circuit Schema
+
+### Photos
+
+### Video Explanation and Demo
 
 ### Functionality
 The components for this project are
